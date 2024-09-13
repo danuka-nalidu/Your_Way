@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="log_in">
+        <h1>Login</h1>
+        <form action="login.php" method="post">
+            <div class="text_area">
+                <input type="text" name="username" placeholder="Username" autocomplete="off" required >
+                <hr class="line">
+            </div>
+            <div class="text_area">
+                <input type="password" name="password" placeholder="Password" autocomplete="off" required>
+                <hr class="line">
+                <br>
+                <div>
+                    <a href="#" class="forgot">Forgot Password?</a>
+                </div>
+            </div>
+            <input type="submit" name="submit" value="Login" class="login_btn">
+            <div class="signup_link">
+                Not a member? <a href="register.html">Register as a customer</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

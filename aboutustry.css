@@ -1,0 +1,205 @@
+
+
+h1{
+    font-size:55px;
+    font-style: italic;
+     text-align:center;
+     color: brown;
+ }
+ .oo{
+    font-size: 30px;
+    color: cadetblue;
+    text-align: center;
+ }
+ .pp{
+    text-align: center;
+    font-size: 30px;
+    padding:20PX 100PX 20PX 100PX ;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+body{
+    /*background-image: url("downloadlast.jpeg"):*/
+    background-repeat: no-repeat;
+    background-size: 2000px,1000px;
+    position: relative;
+    background-attachment: fixed;
+    
+    
+}
+
+
+.koko{
+    
+    color:     red;
+    text-align: left;
+    padding: 0px  20px;
+}
+h3{
+    padding: 10px 50px ;
+}
+#noworries{
+    width: 250px ;
+    height: 250px;
+    position: absolute;
+    right: 800px;
+    
+}
+
+
+/*#container {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    padding: 20px 100px;
+    justify-content: space-between;}*/
+
+#main_pic {
+    width: 105px;
+}
+
+ 
+.wowo{
+     
+    width: 250px ;
+    height: 250px;
+}
+ .lee{
+    margin-left: 70%;
+ }
+ 
+.intergration{
+    position: absolute;
+    left: 50%;
+}
+*{
+    font-family:sans-serif;
+}
+body{
+     
+    margin: 0;
+    padding: 0;
+}
+
+header, footer{
+    padding: 10px;
+    margin: 0;
+    background-color: #030516;
+    width: 100%;
+    height: 18%;
+}
+
+image{
+    float:left
+}
+
+.Logo{
+    width:428.875;
+    height: 56.625;
+    background-color:#030516;
+}
+
+div.navigation{
+    position: absolute;
+    padding: 10px;
+    left: 40%;
+    top: 0;
+}
+
+ul.nav{
+    display: block;
+    background-color:#030516;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+li.navlist{
+    float: left;
+    padding-right: 60;
+}
+
+li.navlist a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.navlist a:hover{
+    color: #0080ff;
+}
+
+div.profiledetails{
+    padding: 5px;
+    position: absolute;
+    left: 85%;
+    top: 70;
+    width: 200px
+
+   
+}
+
+.profilephoto{
+    width:50;
+    height: 50;
+
+}
+
+.userdetails{
+    position: absolute;
+    padding-top: 0%;
+    top:0;
+    left: 27%;
+    padding: 8px;
+    margin: 0;
+    color: white;
+    font-size: 15px;
+}
+
+a.edit{
+    text-decoration: none;
+    color: #0080ff;
+}
+
+div.footer{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+div.footernav{
+    position: absolute;
+    padding: 0px;
+    left: 35%;
+    bottom: 8%;
+}
+
+.footerlogo{
+    width:381.22;
+    height: 50.33;
+    background-color:#030516;
+}
+
+div.media{
+    position: absolute;
+    padding: 20px;
+    margin: 0px;
+    right: 0;
+    bottom: 0;
+    background-color:#030516;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+}
+
+i{
+    padding-left: 10px;
+    font-size: 20px;
+}

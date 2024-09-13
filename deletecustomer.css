@@ -1,0 +1,26 @@
+.container2{
+    margin: 15px;
+    width: 100%;
+    height:50%;
+    border-radius: 10px;
+    padding: 30px;
+    background-color:#050824;
+    border-radius: 10px;
+    align-items: center;
+    display:flex;
+    left: 30%;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+}
+.details{
+    color: white;
+}
+input{
+    width: 40%;
+    height:10%;
+}
+button{
+    padding: 10px;
+}
+#button :hover{
+    background-color: #0045f6;
+}

@@ -1,0 +1,312 @@
+
+*{
+    font-family:sans-serif;
+}
+body{
+    background-color: #323334;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer{
+    padding: 10px;
+    margin: 0;
+    background-color: #030516;
+    width: 100%;
+    height: 18%;
+}
+
+image{
+    float:left
+}
+
+.logo{
+    width:428.875;
+    height: 56.625;
+    background-color:#030516;
+}
+
+div.navigation{
+    position: absolute;
+    padding: 10px;
+    left: 40%;
+    top: 0;
+}
+
+ul.nav{
+    display: block;
+    background-color:#030516;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+li.navlist{
+    float: left;
+    padding-right: 60;
+}
+
+li.navlist a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.navlist a:hover{
+    color: #0080ff;
+}
+
+div.profiledetails{
+    padding: 5px;
+    position: absolute;
+    left: 85%;
+    top: 70;
+    width: 200px
+
+   
+}
+
+.profilephoto{
+    width:50;
+    height: 50;
+
+}
+
+.userdetails{
+    position: absolute;
+    padding-top: 0%;
+    top:0;
+    left: 27%;
+    padding: 8px;
+    margin: 0;
+    color: white;
+    font-size: 15px;
+}
+
+a.edit{
+    text-decoration: none;
+    color: #0080ff;
+}
+
+div.footer{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+div.footernav{
+    position: absolute;
+    padding: 0px;
+    left: 35%;
+    bottom: 8%;
+}
+
+.footerlogo{
+    width:381.22;
+    height: 50.33;
+    background-color:#030516;
+}
+
+div.media{
+    position: absolute;
+    padding: 20px;
+    margin: 0px;
+    right: 0;
+    bottom: 0;
+    background-color:#030516;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+}
+
+i{
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+
+/*css for the form*/
+div.form{
+    background-color: rgba(177, 180, 195, 0.6);
+    position: absolute;
+    width: 50%;
+    left: 22%;
+    border-radius: 8px;
+    border-color: rgb(0, 17, 255);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 18px;
+    border: 1px solid rgba(255,255,255,0.3);
+    color: rgb(0, 0, 0);
+
+}
+
+form.registration{
+    margin-left: 0px;
+    margin-right:0px;
+}
+
+input{
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 7px;
+}
+
+.error{
+    list-style-type: square;
+    font-size: 15px;
+    padding: 14px 16px;
+    padding-top: 8px;
+    display: none;
+}
+
+input[type=submit]{
+    background-color: gray;
+    width: 100%;
+    justify-items: right;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+input[type=submit] .submit:hover{
+    background-color: rgb(187, 255, 0);
+}
+
+input[type=reset]{
+    margin-top: 8px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.btn-close{
+    background-color: transparent;
+    border: 0;
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+    margin-bottom: 2px;
+    margin-left: 100%;
+}
+
+input[type=text],[type=tel],[type=email]{
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+#male{
+    margin-left: 20px;
+}
+
+#female{
+    margin-left: 35%;
+}
+
+
+#address{
+    width: 100%;
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 7px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+label{
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+#message,#conform{
+    width: 33%;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+div.success{
+    background-color: white;
+    width: 25%;
+    margin-left: 37.5%;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: auto;
+    top: 0%;
+}
+
+.successimg{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+.success h2{
+    color: green;
+    text-align: center;
+}
+
+.success div.messageSuccess{
+    background-color: white;
+    color: black;
+    text-align: justify;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    font-size: 18px;
+}
+
+.Continue{
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    width: 100%;
+    border-color: green;
+    cursor: pointer;
+}
+
+.Continue:hover{
+    background-color: rgb(7, 100, 7);
+}
+#delivary{
+    width: 60%;
+    margin-left: 20%;
+}
+.container{
+    background-color: rgba(177, 180, 195, 0.8);
+    border: none;
+    align-items: center;
+}
+.form textarea{
+    width: 60%;
+    margin-left: 20%;
+}
+#submit{
+    width: 60%;
+    margin-left: 20%;
+}

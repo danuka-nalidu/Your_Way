@@ -1,0 +1,58 @@
+/* CSS for the form */
+
+#input-section {
+  max-width: 200px; /* Adjust the max-width value as desired */
+  margin: 0px auto 0;
+  padding: 5px 30px; /* Adjust the padding values as desired */
+  background-color: #36413a;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+#input-section .form-row {
+  margin-bottom: 20px;
+}
+
+#input-section label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#input-section input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #fff;
+  color: #333;
+}
+
+#input-section button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+#input-section button:hover {
+  background-color: #0056b3;
+}
+
+#input-section .form-row {
+  margin-bottom: 10px; /* Adjust the margin value as desired */
+}
+
+
+.container{
+  position: absolute;
+  width: 80%;
+  top: 20%;
+  left: 18%;
+  padding: 1.5rem;
+  bottom: 20%;
+}
+

@@ -1,0 +1,135 @@
+/* riderequest.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* Rest of the original code */
+.container {
+
+  margin: 40px auto;
+
+  
+    position: absolute;
+    width: 80%;
+    top: 10%;
+    left: 18%;
+    padding: 1.5rem;
+    bottom: 20%;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.ride-details {
+  margin-bottom: 30px;
+}
+
+.ride-details h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.ride-details p {
+  margin: 5px 0;
+}
+
+.ride-details form {
+  margin-top: 10px;
+}
+
+.delete-button,
+.status-button,
+.accept-button {
+  display: inline-block;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  margin-right: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: #ff6464;
+  color: #fff;
+}
+
+.status-button {
+  background-color: #6bd09c;
+  color: #fff;
+}
+
+.accept-button {
+  background-color: #4a90e2;
+  color: #fff;
+}
+
+.create-column {
+  margin-bottom: 30px;
+}
+
+.create-column h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.create-column button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #4a90e2;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.insert-data {
+  margin-bottom: 30px;
+}
+
+.insert-data h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.insert-data label {
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.insert-data input[type="text"] {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.insert-data button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #4a90e2;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+
+.ride-details {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.delete-button, .status-button, .accept-button {
+    margin-top: 5px;
+}
+.create-column, .insert-data {
+    margin-top: 20px;
+}

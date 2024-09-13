@@ -1,0 +1,156 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #222;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+header,
+footer {
+  padding: 10px;
+  margin: 0;
+  background-color: #030516;
+  width: 100%;
+  height: 10vh; /* Changed height to 10% of the viewport height */
+}
+
+.logo {
+  width: 200px;
+  height: 40px;
+  background-color: #030516;
+}
+
+div.navigation {
+  position: fixed;
+  padding: 10px;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
+
+ul.nav {
+  display: block;
+  background-color: #030516;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+li.navlist {
+  display: inline-block;
+  padding-right: 60px;
+}
+
+li.navlist a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.navlist a:hover {
+  color: #0080ff;
+}
+
+div.profiledetails {
+  padding: 5px;
+  position: fixed;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 200px;
+}
+
+.profilephoto {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.userdetails {
+  position: fixed;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  padding: 8px;
+  margin: 0;
+  color: white;
+  font-size: 15px;
+}
+
+a.edit {
+  text-decoration: none;
+  color: #0080ff;
+}
+
+div.footer {
+  padding: 0;
+  margin: 0;
+  height: 10vh;
+}
+
+div.footernav {
+  position: fixed;
+  padding: 0px;
+  left: 50%;
+  bottom: 8%;
+  transform: translateX(-50%);
+}
+
+.footerlogo {
+  width: 381.22px;
+  height: 50.33px;
+  background-color: #030516;
+}
+
+div.media {
+  position: fixed;
+  padding: 20px;
+  margin: 0px;
+  right: 0;
+  bottom: 0;
+  background-color: #030516;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+i {
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.dark-mode body {
+  background-color: #333;
+}
+
+.dark-mode header,
+.dark-mode footer {
+  background-color: #222;
+}
+
+.dark-mode .logo,
+.dark-mode .navigation,
+.dark-mode ul.nav,
+.dark-mode li.navlist a,
+.dark-mode .profiledetails,
+.dark-mode .profilephoto,
+.dark-mode .userdetails,
+.dark-mode .footerlogo,
+.dark-mode div.media {
+  background-color: #222;
+}
+
+.dark-mode li.navlist a:hover {
+  color: #0080ff;
+}
+
+.dark-mode .userdetails,
+.dark-mode a.edit,
+.dark-mode .footer p {
+  color: #fff;
+}

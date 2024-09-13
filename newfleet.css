@@ -1,0 +1,124 @@
+
+.left{
+
+    width:20%;
+    background-color: #030516;
+    height: 100%vh;
+    float: left;
+}
+i{
+    padding-right: 10px;
+}
+
+ul h2{
+    color: #0045f6;
+}
+ul li a{
+    /* position: relative;*/
+     color: white;
+     text-decoration: none;
+ }
+ ul{
+    position: relative;
+    margin-top: 20%;
+    margin-left: -14px;
+ }
+ ul li{
+     list-style: none;
+     margin-top: 20px;
+     border-bottom: 1px ;
+     padding-bottom: 5px;
+ }
+button.btn{
+    background-color:#050824;
+    width: 90%;
+    height: 40px;
+    font-size: 16px;
+    color: white;
+    margin-left: 5%;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+}
+
+button.rent{
+    padding: 10px;
+    margin-bottom: 8px;
+    color: white;
+    background-color: rgb(143, 8, 35);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+}
+button.info{
+    padding: 5px;
+    color: white;
+    background-color: rgb(4, 11, 95);
+    border: none;
+}
+button:hover {
+    background-color:rgb(40, 44, 53);
+}
+.dashboard{
+    display: flex;
+}
+nav .right{
+    width:80%;
+    /*background-image:url("images/background1.jpg");
+    background-size: cover;*/
+    background-color: #030516;
+    height: 100%;
+    float: right;
+}
+
+.box-img{
+    margin: 15px;
+    width: 220%;
+    border-radius: 10px;
+    padding: 30px;
+    background-color:#050824;
+    border-radius: 10px;
+    align-items: center;
+    display:flex;
+    left: 30%;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+}
+.txtbox{
+    padding: 20px;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    width: 100%;
+    color: white;
+
+    /*overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 10; 
+    line-height: 1em; 
+    max-height: 20em; */
+
+}
+.txtbox h1{
+    font-weight: 1px;
+    color: #0080ff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.txtbox p{
+    font-weight: 30px;
+}
+
+img:not(header img) {
+    max-width: 350px;
+    border: none ;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+    /*transition: transform 0.3s ease-in-out;*/
+  }
+
+ img:not(header img):hover{
+    max-width: 355px;
+    transform: scale(1.01);
+  }

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>approve orders</title>
+  <link rel="stylesheet" href="formstry.css">
+</head>
+<body>
+ <div>
+    <img class= logo src= "Your Way - Car Rental System Logo.png">
+                <br><br><br>
+    <table style="width: 100%; height: 100%;">
+        <tr>
+            <td style="background-color: black; width: 20%; height: 100%;">
+                
+                 <div class="button-container">
+                           <a href="dashboard.php"><button>Dashboard</button><br></a>
+                           <a href="approveorders.php"><button>Approve Orders</button><br></a>
+                           <select>
+                               <option value="option1">Manage Payments</option>
+                               <option value="option2">Manage Driver Payments</option>
+                               <option value="option3">Manage Supplier Payments</option>
+                               
+                           </select>
+                           <br>
+                           
+                           <select>
+                             <option value="option1"> Updates</option>
+                             <a href="forms.html">  <option value="option2">update car prices</option></a>
+                             <a href="froms.html"><option value="option3">update drivers</option></a>
+                        </select><br> <br>
+                         <a href="faq.html"><button>Manage FAQs</button><br></a>
+
+                           <button>Settings</button><br><br>
+                           <button>System Security</button><br>
+                           <br><br><br>
+                           <button>Logout</button>
+                         </div> 
+
+            </td>
+         
+        
+      
+                <td style="background-color:  rgb(22, 24, 43); height: 100%; border-radius: 10px;">
+                 
+                 
+                 
+                    
+                        <div style ="margin-bottom:30%;"> 
+                            <fieldset style="width:50%; border-radius: 10px; background-color:  lightslategrey;"> 
+                            <center> 
+                    <h2>update the car prices</h2>
+                        <form action="forms.php" method="POST">               
+                                     <label for="carId">Car ID:</label>
+                        <input type="text" id="carId" name="Car_ID" required>
+            
+                        <label for="newPrice">New Car Price:</label>
+                        <input type="number" id="newPrice" name="newPrice" required>
+                        
+                        <input type="submit" id ="sub" value="Submit">
+                      </form></center></fieldset>
+                    </div>
+                  
+                            
+            
+                </td>
+                    
+                </tr>
+                </table>
+              
+                  
+                 
+</body>
+</html>

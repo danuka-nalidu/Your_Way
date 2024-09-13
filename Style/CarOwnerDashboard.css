@@ -1,0 +1,198 @@
+.leftnav{
+    background: #050824;
+    display: flex;
+    flex-direction: column;
+    width: 16%;
+    height: 120%;
+    position: relative;
+
+}
+
+.leftnav i{
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.leftnav a{
+    display: flex;
+    color: #ada7a7;
+    margin-left: 2rem;
+    top: 1rem;
+    align-items: center;
+    position: relative;
+    height: 3.7rem;
+    transition: all 300ms ease;
+    text-decoration: none;
+}
+
+.leftnav a i{
+    font-size: 1.5rem;
+    transition: all 300ms ease;
+}
+
+.leftnav a:last-child{
+    position: relative;
+    bottom:0;
+    width: 100%;
+}
+
+.leftnav a:active{
+    background:rgba(132, 139, 200, 0.18) ;
+    color: #0080ff;
+    margin-left: 0;
+}
+
+.leftnav a:active::before{
+    content: "";
+    width: 6px;
+    height: 100%;
+    background: #0080ff;
+}
+
+.leftnav a:active i{
+    color: #0080ff;
+    margin-left: calc(1rem - 3px);
+}
+
+.leftnav a:hover{
+    color: #0080ff;
+}
+
+.leftnav a:hover i{
+    margin-left: 1rem;
+}
+
+/* main*/
+.main{
+    position: absolute;
+    width: 80%;
+    top: 20%;
+    left: 18%;
+    margin-bottom: 5rem;
+    padding: 1.5rem;
+}
+
+.main .title{
+    color: #0045f6;
+}
+
+.main .container{
+    width: 100%;
+    margin-top: 1.4rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2ram;
+}
+
+.container > div{
+    background: #050824 ;
+    color: white;
+    margin-right: 2rem;
+    padding: 1.8rem;
+    border-radius:2rem ;
+    margin-top: 1rem;
+    box-shadow: 0 2rem 3rem rgba(132, 139, 200, 0.18) ;
+    transition: all 300ms ease;
+}
+
+.container > div:hover{
+    box-shadow: none;
+} 
+
+.container > div #icon{
+    background:#d5f600 ;
+    padding: 0.5rem;
+    border-radius: 50%;
+    color: white;
+    font-size: 2rem;
+}
+
+.container > div.income #icon{
+    background: #0045f6;
+}
+
+.container > div.ratings #icon{
+    background: #0080ff;
+}
+
+.container > div.middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container > div #str{
+    margin-left: 20px;
+}
+
+.container > div button{
+    background: none;
+    border: none;
+    font-size: 15px;
+    width: 100%;
+    color: #0045f6;
+}
+
+.container > div button:hover{
+    font-size: 17px;
+}
+
+.container h3{
+    margin: 1rem 0 0.6rem;
+    font-size: 1rem;
+}
+
+.container .small{
+    color: #ada7a7;
+    font-size: 0.75rem;
+    margin-top: 1rem;
+    display: block;
+}
+
+/*car list*/
+.main .carlist{
+    width: 97%;
+    margin-top: 2rem;
+    
+}
+
+.carlist table{
+    background: #050824;
+    width: 100%;
+    border-radius: 2rem;
+    padding: 1.8rem;
+    text-align: center;
+    box-shadow: 0 2rem 3rem rgba(132, 139, 200, 0.18);
+    transition: all 300ms ease;
+}
+
+.carlist table th{
+    color: white;
+}
+
+.carlist table:hover{
+    box-shadow: none;
+} 
+
+.carlist table tbody td{
+    height: 2.8rem;
+    border-bottom: 1px solid rgba(132, 139, 200, 0.18);
+    color: #ada7a7;
+}
+
+.carlist table tbody tr:last-child td{
+    border: none;
+}
+
+.carlist button{
+    background: none;
+    border: none;
+    font-size: 15px;
+    width: 100%;
+    color: #0045f6;
+
+}
+
+.carlist button:hover{
+    font-size: 17px;
+}
